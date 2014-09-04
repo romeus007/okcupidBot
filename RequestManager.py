@@ -39,8 +39,7 @@ class RequestManager:
 				print 'error'
 
 
-requestAPI = RequestManager()
-requestAPI.login('yazexel@gmail.com', 'testpasswo')
+
 
 
 
