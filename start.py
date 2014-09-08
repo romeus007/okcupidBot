@@ -2,4 +2,4 @@
 from RequestManager import *
 
 requestAPI = RequestManager()
-requestAPI.login('yazexel@gmail.com', 'testpassword')
+requestAPI.login('romeus99', 'password348127')
