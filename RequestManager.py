@@ -1,4 +1,4 @@
-import json   #exposes an API
+import json   
 import urllib   
 import urllib2
 
@@ -27,9 +27,12 @@ class RequestManager:
 		jsonValue = json.loads(the_page) #takes a JSON string and returns it as a Python data structure
 
 		userIdValue = jsonValue['userid']
+		if username != 0:
+			print "Login Success!"
+		else:
+			print "Mind your code, buddy!"
 
-requestAPI = RequestManager()
-requestAPI.login("romeus99","password348127")
+
 
 
 
